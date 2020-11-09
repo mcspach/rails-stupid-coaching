@@ -1,3 +1,29 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+.container {
+  box-shadow: 0 0 2px;
+  margin: 2%;
+  padding: 2%;
+  width: 90vw;
+  height: 80vh;
+  background-color: rgb(225, 238, 252);
+}
+
+.text-strip {
+  height: 40px;
+  width: 90%;
+  box-shadow: 0 0 2px;
+  margin: 2%;
+  padding: 2%;
+  background-color: rgb(225, 238, 252);
+}
+
